@@ -6,10 +6,10 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 var mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user : 'root',
-    password: 'password',
-    database: 'db1'
+    host: 'remotemysql.com',
+    user : 'wdRytqgYzx',
+    password: '8wxtwtiOzq',
+    database: 'wdRytqgYzx'
 });
 
 mysqlConnection.connect((err) => {
